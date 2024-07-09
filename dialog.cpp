@@ -27,7 +27,7 @@ void Dialog::on_Login_clicked()
         mainwindow.show();
         this->close();
     }else{
-        ui->lblMsg->setText("登录错误");
+        ui->lblMsg->setText("Your account or password is not correct.");
     }
 }
 
